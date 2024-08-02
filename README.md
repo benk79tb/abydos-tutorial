@@ -1,3 +1,35 @@
+# Kent Bull's abydos tutorial
+
+This repository is a fork of the original tutorial from Kent Bull,
+available at https://github.com/TetraVeda/abydos-tutorial.
+
+The scope is to be able to fix the exact dependencies with Docker
+in order to be able to reproduce the right environment for 
+executing it.
+
+The resulting Docker image fixing the appropriate KERI-py version
+is available as `benk79tb/keripy:kentbull`
+
+On this base it is now possible to execute this tutorial by building
+you own docker image with:
+
+```bash
+docker build -t abydos-tutorial .
+```
+
+You will then be able to run it with:
+
+```bash
+docker run -it abydos-tutorial
+```
+
+
+# Original repository's README content
+
+INFORMATION: Everything below this line is coming from the original repository.
+
+_________________________________________
+
 # [Abydos](https://en.wikipedia.org/wiki/Abydos,_Egypt) Tutorial
 
 This is the companion repository for the *KERI Tutorial Series: Treasure Hunting in Abydos! Issuing and Verifying a Credential (ACDC)* blog article.

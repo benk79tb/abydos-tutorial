@@ -1,8 +1,4 @@
-# FROM ubuntu:20.04
-# FROM weboftrust/keri:1.1.16
-# FROM gleif/keri:1.0.0
 FROM benk79tb/keripy:kentbull
-
 
 # Install dependencies
 RUN apk --no-cache add \
